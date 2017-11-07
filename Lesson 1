@@ -1,0 +1,16 @@
+# declare ages : ARRAY(0..9) OF INTEGER
+ages = [0,4,22,3,6,5,8,3,1,9]
+
+for count in range (0,8):
+
+    for index in range (0,9):
+        print (ages[index])
+
+        if ages [index] > ages [index + 1] :
+            temp = ages[index]
+            ages[index] = ages[index + 1]
+            ages[index + 1] = temp
+
+for index in range (0,10) :
+    print('xx',ages[index])
+
