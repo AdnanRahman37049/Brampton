@@ -22,8 +22,12 @@ def bubble_sort():
                 ages[index + 1] = temp
 
 def output_array():
+    # DECLARE index : integer
+    fh = open("num.txt,"w")
     for index in range (0,10) :
         print('xx',ages[index])
+        fh.write = (str(ages[index]))
+    fh.close()
 
 #MAIN PROGRAM
 for index  in range (0,10):
